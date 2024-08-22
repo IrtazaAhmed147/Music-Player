@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="phone.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="./assets/logo1.png" alt="">
+
+        <ul class="nav-ul">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            
+        </ul>
+        
+    </nav>
+
+    <section class="section">
+
+        <div class="container">
+
+            <div class="title">
+                <h1>Songs lists </h1>
+            </div>
+
+            <div class="song-container">
+              
+
+                <div class="song-detail-box">
+                    <img  alt="">
+                    <p class="songName"></p>
+                    <span >00:00 <i id="0" class="fa fa-play-circle smallplaybtn "></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="1" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="2" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="3" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="4" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="5" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="6" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+                <div class="song-detail-box">
+                      <img  alt="">
+                    <p class="songName"></p>
+                    <span>00:00 <i id="7" class="fa fa-play-circle smallplaybtn" ></i> </span>
+                </div>
+            </div>
+                
+        </div>
+    </section>
+
+
+
+    
+
+    
+    
+    
+    
+    <footer>
+        <div class="range">
+            <input type="range" id="myprogressBar" name="range" min="0" max="100" value="0" >
+        </div>
+        <div class="control-box">
+            <div class="foot-song-name">
+                <img src="./assets/gif.gif" id="gif" alt="">
+                <p id="caption"></p>
+            </div>
+            <div class="controls">
+                
+                <i class="fa fa-backward" id="previousbtn"></i>
+                
+                <i class="fa fa-play-circle " id="master-btn"> </i>
+                <i class="fa fa-forward " id="forwardbtn"></i>
+            </div>
+            <div class="durationbox">
+                <span id="duration"></span> 
+            </div>
+        </div>
+    </footer>
+   
+    <script src="/script.js"></script>
+</body>
+
+</html>
