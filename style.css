@@ -5,6 +5,10 @@
     font-family: "Afacad Flux", serif;
 }
 
+body{
+    height: 100vh;
+}
+
 a{
     color: black;
     text-decoration: none;
@@ -14,7 +18,7 @@ ul{
 }
 
 nav{
-    height: 60px;
+    height: 10%;
     background-color: rgb(14, 14, 14);
     display: flex;
     align-items: center;
@@ -35,7 +39,7 @@ nav a{
 }
 
 .section{
-    height: 500px;
+    height: 75%;
     background-color: #121212;
     display: flex;
     justify-content: center;
@@ -61,8 +65,11 @@ nav a{
     
 }
 footer{
-    height: 81px;
+    height: 15%;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .range{
@@ -87,6 +94,7 @@ footer{
     margin: 0 auto;
     width: 80%;
     position: relative;
+    align-items: center;
 
 }
 .controls{
@@ -182,7 +190,7 @@ footer{
     
     .foot-song-name {
         gap: 10px;
-        font-size: 13px;
+        font-size: 16px;
     }
     
     .foot-song-name img {
@@ -193,12 +201,21 @@ footer{
 
 
 @media screen and (max-width: 450px) {
+    .range{
+        width: auto;
+    }
+    #myprogressBar{
+        width: 90%;
+    }
     .control-box{
         gap: 5px;
-        font-size: 15px;
+        font-size: 20px;
+        width: auto;
+        margin: 0;
+        padding: 0px 10px;
     }
     .controls{
-        font-size: 15px;
+        font-size: 20px;
     }
     .container {
         width: 100%;
